@@ -4,61 +4,61 @@
             "nombre": "Gaseosa",
             "descripcion": "Un vaso de gaseosa.",
             "precio": 80,
-            "imagen": "../source/img/vaso_de_gaseosa.png"
+            "imagen": "source/img/vaso_de_gaseosa.png"
         },
         {
             "nombre": "Alfajor",
             "descripcion": "Un alfajor guaymallen.",
             "precio": 90,
-            "imagen": "../source/img/alfajor.png"
+            "imagen": "source/img/alfajor.png"
         },
         {
             "nombre": "Caramelos",
             "descripcion": "Una bolsa de caramelos surtidos.",
             "precio": 100,
-            "imagen": "../source/img/bolsa_de_caramelos.png"
+            "imagen": "source/img/bolsa_de_caramelos.png"
         },
         {
             "nombre": "Cerveza",
             "descripcion": "Una lata de cerveza schneider 480ml.",
             "precio": 400,
-            "imagen": "../source/img/lata_de_cerveza.png"
+            "imagen": "source/img/lata_de_cerveza.png"
         },
         {
             "nombre": "Pancho",
             "descripcion": "Un pancho.",
             "precio": 150,
-            "imagen": "../source/img/Pancho.png"
+            "imagen": "source/img/Pancho.png"
         },
         {
             "nombre": "Pizza",
             "descripcion": "Una porcion de piza de muzzarella.",
             "precio": 120,
-            "imagen": "../source/img/porcion_de_pizza.png"
+            "imagen": "source/img/porcion_de_pizza.png"
         },
         {
             "nombre": "Hamburguesa",
             "descripcion": "Una hamburguesa.",
             "precio": 200,
-            "imagen": "../source/img/hamburguesa.png"
+            "imagen": "source/img/hamburguesa.png"
         },
         {
             "nombre": "Combo Nº1",
             "descripcion": "Un alfajor, una bolsa de caramelos y un vaso de gaseosa",
             "precio": 230,
-            "imagen": "../source/img/combo_1.png"
+            "imagen": "source/img/combo_1.png"
         },
         {
             "nombre": "Combo Nº2",
             "descripcion": "una cerveza y una hamburguesa",
             "precio": 500,
-            "imagen": "../source/img/combo_2.png"
+            "imagen": "source/img/combo_2.png"
         },
         {
             "nombre": "Combo Nº3",
             "descripcion": "Una hamburguesa y un vaso de gaseosa",
             "precio": 250,
-            "imagen": "../source/img/combo_3.png"
+            "imagen": "source/img/combo_3.png"
         }
     ]
 }
