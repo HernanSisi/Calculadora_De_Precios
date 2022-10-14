@@ -1,0 +1,18 @@
+@import url(reset.css);
+@import url(variables.css);
+@import url(../components/header.css);
+@import url(../components/calculadora.css);
+@import url(../components/tarjetas/tarjetas.css);
+@import url(../components/total.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    background: url(../../source/img/fiesta.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+}

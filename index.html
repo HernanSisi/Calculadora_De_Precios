@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚜Buffet🍱</title>
+    <link rel="icon" href="source/ico/logo_grupo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="source/img/logo2022.png" alt="Logo del grupo" class="header__logo">
+            <div class="header__btn__rebaja">
+                <label for="rebaja" class="header__texto__rebaja">Selecione rebaja</label>
+                <select id="rebaja" name="Rebaja" class="header__selector__rebaja" data-rebaja>
+                    <option value="0" selected>0%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.3">30%</option>
+                    <option value="0.4">40%</option>
+                    <option value="0.5">50%</option>
+                    <option value="0.6">60%</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="calculadora">
+            <div class="calculadora__tarjetas"></div>
+            <div class="calculadora__total">
+                <p class="total__texto">Total</p>
+                <button class="total__btn__borrar" data-borrar><i class="fa-solid fa-trash-can"></i></button>
+                <span class="total__precio" data-total>0$</span>
+            </div>
+        </div>
+    </main>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</body>
+<script src="js/main.js" type="module"></script>
+</html>

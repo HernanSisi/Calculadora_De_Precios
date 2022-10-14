@@ -1,0 +1,25 @@
+.calculadora{
+    /* background-color: aqua; */
+    border-radius: var(--br-general);
+    margin: 2vh 1vh 0;
+    height: 80vh;
+    display: grid;
+    grid: 9fr 1fr / 1fr;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+}
+.calculadora__tarjetas{
+    padding: 2.5vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.calculadora__total{
+    padding: 2vw;
+    background-color: brown;
+    display: grid;
+    grid: 1fr / 2fr .5fr 1fr;
+}

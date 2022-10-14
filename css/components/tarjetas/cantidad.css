@@ -1,0 +1,48 @@
+.tarjetas__cantidad{
+    display: flex;
+    align-items: center;
+}
+.tarjetas__inp__cantidad{
+    font-size: 5vw;
+}
+.tarjetas__btns{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+.tarjetas__btn__aumentar, .tarjetas__btn__disminuir {
+    height: 8vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #0d1114;
+    padding: 3px 7px 3px 7px;
+    border: solid #0a0e14 3px;
+    font-size: 5vw;
+    text-decoration: none;
+}
+.tarjetas__btn__aumentar{
+    background: #048d0f;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.tarjetas__btn__disminuir{
+    background: #b60e0e;
+    display: flex;
+    align-items: baseline;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.tarjetas__btn__aumentar:active, .tarjetas__btn__disminuir:active {
+    background: #0c1b25;
+    background-image: -webkit-linear-gradient(top, #0c1b25, #0d1114);
+    background-image: -moz-linear-gradient(top, #0c1b25, #0d1114);
+    background-image: -ms-linear-gradient(top, #0c1b25, #0d1114);
+    background-image: -o-linear-gradient(top, #0c1b25, #0d1114);
+    background-image: linear-gradient(to bottom, #0c1b25, #0d1114);
+    text-decoration: none;
+}

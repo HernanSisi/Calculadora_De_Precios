@@ -1,0 +1,23 @@
+.tarjetas__precios{
+    width: calc(max-content + 2rem);
+    height: 100%;
+    margin-right: 1vw;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 16vw;
+    white-space: nowrap;
+}
+.tarjetas__precio{
+    font-size: 5vw;
+}
+.tarjetas__precio--tachado{
+    font-size: 4vw;
+    line-height: 1em;
+    text-decoration: line-through red solid 2px;
+}
+.tarjetas__precio__descuento{
+    font-size: 5vw;
+
+}

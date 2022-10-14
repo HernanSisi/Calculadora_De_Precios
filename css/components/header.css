@@ -1,0 +1,50 @@
+header{
+    height: 12vh;
+}
+.header{
+    height: 100%;
+    background-color: var(--bk-header);
+    border-radius: 0 0 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo{
+    height: 10vh;
+    left: calc(50% - 5vh);
+}
+.header__btn__rebaja{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 1vh;
+    right: 2vw;
+}
+.header__texto__rebaja{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1vh;
+    /* font-weight: bold; */
+    font-size: 4.5vw;
+    color: white;
+}
+.header__selector__rebaja{
+    appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    text-align: center;
+    display: inline-block;
+	width: 8vh;
+	cursor: pointer;
+    height: 4vh;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 100%;
+	color: #999;
+	font-family: 'Quicksand', sans-serif;
+	border:3px solid var(--bk-header-efects);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}

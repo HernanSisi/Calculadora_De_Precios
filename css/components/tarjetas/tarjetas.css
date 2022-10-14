@@ -1,0 +1,16 @@
+@import url(cantidad.css);
+@import url(imagen.css);
+@import url(informacion.css);
+@import url(precios.css);
+.tarjetas{
+    overflow: hidden;
+    height: 9vh;
+    padding: 1vh 0 1vh 1vh;
+    background-color: blueviolet;
+    border-radius: var(--br-general);
+    margin-bottom: var(--br-general);
+    display: grid;
+    align-items: center;
+    grid: 100% / 1fr 2fr 1.1fr auto;
+    box-shadow: 5px 4px rgba(0, 0, 0, .4);
+}

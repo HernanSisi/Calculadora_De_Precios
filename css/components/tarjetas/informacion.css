@@ -1,0 +1,19 @@
+.tarjetas__informacion{
+    margin: 0 1vw;
+    /* overflow: hidden; */
+    justify-content: baseline;
+    height: 100%;
+}
+.tarjetas__titulo{
+    overflow: hidden;
+    font-size: 5vw;
+    height: 6vw;
+    white-space: nowrap;
+}
+.tarjetas__descripcion{
+    text-overflow: clip;
+    font-size: 3.5vw;
+    line-break: anywhere;
+    overflow: hidden;
+    min-height: 5vw;
+}
