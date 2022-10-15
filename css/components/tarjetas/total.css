@@ -1,0 +1,38 @@
+.total__texto{
+    font-size: var(--tx-muy-grande);
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.total__btn__borrar{
+    height: 100%;
+    width: var(--tx-muy-grande);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px darkred solid;
+    border-radius: var(--br-general);
+    background-color: white;
+    cursor: pointer;
+}
+.fa-trash-can{
+    color: darkred;
+    font-size: var(--tx-mediano);
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.3);
+}
+.total__btn__borrar:active{
+    background-color: #969696;
+    border-color: rgb(78, 0, 0);
+}
+.fa-trash-can:active{
+    color: rgb(78, 0, 0);
+}
+.total__precio{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: var(--tx-grande);
+    margin-right: 1rem;
+}

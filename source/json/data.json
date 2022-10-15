@@ -7,16 +7,10 @@
             "imagen": "source/img/vaso_de_gaseosa.png"
         },
         {
-            "nombre": "Alfajor",
-            "descripcion": "Un alfajor guaymallen.",
-            "precio": 90,
-            "imagen": "source/img/alfajor.png"
-        },
-        {
-            "nombre": "Caramelos",
-            "descripcion": "Una bolsa de caramelos surtidos.",
-            "precio": 100,
-            "imagen": "source/img/bolsa_de_caramelos.png"
+            "nombre": "Speed",
+            "descripcion": "Una lata chica de speed.",
+            "precio": 180,
+            "imagen": "source/img/speed.png"
         },
         {
             "nombre": "Cerveza",
@@ -41,6 +35,18 @@
             "descripcion": "Una hamburguesa.",
             "precio": 200,
             "imagen": "source/img/hamburguesa.png"
+        },
+        {
+            "nombre": "Alfajor",
+            "descripcion": "Un alfajor guaymallen.",
+            "precio": 90,
+            "imagen": "source/img/alfajor.png"
+        },
+        {
+            "nombre": "Caramelos",
+            "descripcion": "Una bolsa de caramelos surtidos.",
+            "precio": 100,
+            "imagen": "source/img/bolsa_de_caramelos.png"
         },
         {
             "nombre": "Combo Nº1",

@@ -3,4 +3,9 @@
     --bk-header-efects: #7c160f;
 
     --br-general: 3vh;
+
+    --tx-chico: calc(.8em + 1.5vw);
+    --tx-mediano: calc(1em + 1.9vw);
+    --tx-grande: calc(1.2em + 2.5vw);
+    --tx-muy-grande: calc(1.5em + 3.5vw);
 }

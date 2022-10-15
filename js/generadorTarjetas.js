@@ -6,11 +6,16 @@ export const generadorDeTarjetas = ({nombre,descripcion,precio,imagen}) => {
     let imag = document.createElement('img');
     imag.classList.add('tarjetas__imagen');
     imag.src = imagen;
-    tarjeta.appendChild(imag);
-    tarjeta.appendChild(generadorInformacion(nombre,descripcion));
-    tarjeta.appendChild(generadorDePrecio(precio));
-    tarjeta.appendChild(generarCantidad());
-
+    let agrupadorUno = document.createElement('div');
+    agrupadorUno.classList.add('tarjetas__agrupador');
+    agrupadorUno.appendChild(imag);
+    agrupadorUno.appendChild(generadorInformacion(nombre,descripcion));
+    tarjeta.appendChild(agrupadorUno);
+    let agrupadorDos = document.createElement('div');
+    agrupadorDos.classList.add('tarjetas__agrupador');
+    agrupadorDos.appendChild(generadorDePrecio(precio));
+    agrupadorDos.appendChild(generarCantidad());
+    tarjeta.appendChild(agrupadorDos);
     return tarjeta;
 };
 const generadorInformacion = (nombre, descripcion) => {

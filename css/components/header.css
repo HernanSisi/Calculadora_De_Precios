@@ -26,7 +26,7 @@ header{
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 1vh;
     /* font-weight: bold; */
-    font-size: 4.5vw;
+    font-size: var(--tx-chico);
     color: white;
 }
 .header__selector__rebaja{
@@ -35,12 +35,9 @@ header{
 	-moz-appearance: none;
     text-align: center;
     display: inline-block;
-	width: 8vh;
+	/* width: 8vh; */
 	cursor: pointer;
-    height: 4vh;
-	background: #f0f0f0;
-	color: #7b7b7b;
-	font-size: 100%;
+	font-size: var(--tx-chico);
 	color: #999;
 	font-family: 'Quicksand', sans-serif;
 	border:3px solid var(--bk-header-efects);
