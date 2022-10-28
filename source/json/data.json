@@ -19,6 +19,12 @@
             "imagen": "source/img/lata_de_cerveza.png"
         },
         {
+            "nombre": "Fernet",
+            "descripcion": "Un vaso de fernet Branca.",
+            "precio": 400,
+            "imagen": "source/img/vaso_fernet.png"
+        },
+        {
             "nombre": "Pancho",
             "descripcion": "Un pancho.",
             "precio": 150,
@@ -43,26 +49,32 @@
             "imagen": "source/img/alfajor.png"
         },
         {
-            "nombre": "Caramelos",
-            "descripcion": "Una bolsa de caramelos surtidos.",
-            "precio": 100,
-            "imagen": "source/img/bolsa_de_caramelos.png"
+            "nombre": "Chupetin",
+            "descripcion": "Unchupetin a eleccion.",
+            "precio": 50,
+            "imagen": "source/img/chupetin.png"
+        },
+        {
+            "nombre": "Chicle",
+            "descripcion": "Un chicle a eleccion.",
+            "precio": 10,
+            "imagen": "source/img/chicle.png"
         },
         {
             "nombre": "Combo Nº1",
-            "descripcion": "Un alfajor, una bolsa de caramelos y un vaso de gaseosa",
-            "precio": 230,
+            "descripcion": "Un alfajor, un chicle, un chupetin y un vaso de gaseosa.",
+            "precio": 220,
             "imagen": "source/img/combo_1.png"
         },
         {
             "nombre": "Combo Nº2",
-            "descripcion": "una cerveza y una hamburguesa",
+            "descripcion": "Una cerveza y una hamburguesa",
             "precio": 500,
             "imagen": "source/img/combo_2.png"
         },
         {
             "nombre": "Combo Nº3",
-            "descripcion": "Una hamburguesa y un vaso de gaseosa",
+            "descripcion": "Un vaso de gaseosa y una hamburguesa",
             "precio": 250,
             "imagen": "source/img/combo_3.png"
         }
