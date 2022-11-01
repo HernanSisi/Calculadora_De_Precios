@@ -5,21 +5,26 @@
 @import url(total.css);
 .tarjetas {
     overflow: hidden;
-    height: 10vh;
-    padding: 1vh 0 1vh 1vh;
+    padding-top: .4rem;
     background-color: blueviolet;
     border-radius: var(--br-general);
     margin-bottom: var(--br-general);
     display: grid;
-    grid: 100% / auto auto;
-    gap: 1rem;
+    grid: auto auto / 100%;
+    gap: .5rem;
     box-shadow: 5px 4px rgba(0, 0, 0, .4);
     justify-content: space-between;
 }
-.tarjetas__agrupador {
+.tarjetas__agrupador__sector1 {
+    padding: 0 .4rem;
     display: grid;
     height: 100%;
-    grid: 100% / auto auto;
-    align-items: center;
+    grid: 100% / auto 1fr;
+    gap: .5rem;
+}
+.tarjetas__agrupador__sector2 {
+    display: grid;
+    height: 100%;
+    grid: 100% / auto 1fr auto;
     gap: .5rem;
 }

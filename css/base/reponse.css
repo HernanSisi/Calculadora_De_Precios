@@ -1,14 +1,13 @@
 @media (min-width: 769px) {
-    :root{
-        --tx-chico: calc(.8em + 1vw);
-    }
+    
     .calculadora__tarjetas{
         display: grid;
-        grid: 1fr / 1fr 1fr;
+        grid: 1fr / 1fr 1fr 1fr;
+        gap: 1rem;
     }
     .tarjetas{
-        margin-right: var(--br-general);
-        height: 12vh;
+        height: 9rem;
+        margin-bottom: 0;
     }
     .header__btn__rebaja{
         flex-direction: row;
@@ -16,7 +15,24 @@
     .header__texto__rebaja{
         margin-right: 1rem;
     }
-
+}
+@media (max-width: 894px ) and ( min-width: 574px) {
+    .calculadora__tarjetas{
+        display: grid;
+        grid: 1fr / 1fr 1fr;
+        gap: 1rem;
+    }
+    .tarjetas{
+        height: 9rem;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 426px){
+    .header__selector__rebaja{
+        font-size: var(--tx-grande);
+    }
+}
+@media (min-width: 426px){
     .calculadora__tarjetas::-webkit-scrollbar {
         
         background-color: transparent;
@@ -39,10 +55,5 @@
     }
     .calculadora__tarjetas::-webkit-scrollbar-button {
         display: none
-    }
-}
-@media (max-width: 426px){
-    .header__selector__rebaja{
-        font-size: var(--tx-grande);
     }
 }

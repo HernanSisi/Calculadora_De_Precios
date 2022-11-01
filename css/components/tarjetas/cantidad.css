@@ -8,37 +8,36 @@
 .tarjetas__btns{
     height: 100%;
     display: flex;
-    flex-direction: column;
     margin-left: .5rem;
 }
 .tarjetas__btn__aumentar, .tarjetas__btn__disminuir {
     cursor: pointer;
-    height: 10vh;
-    width: var(--tx-chico);
-    min-width: 3rem;
-    color: #ffffff;
-    background: #0d1114;
+    width: 5rem;
+    color: #fff;
     padding: 3px 7px 3px 7px;
     border: solid #0a0e14 3px;
-    border-right: 0;
     font-size: var(--tx-mediano);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
+
 .tarjetas__btn__aumentar{
     background: #048d0f;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    border-bottom: solid #0a0e14 1.5px;
+
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 1rem 0 0 0;
 }
 
 .tarjetas__btn__disminuir{
     background: #b60e0e;
-    display: flex;
-    align-items: baseline;
     font-weight: bolder;
-    justify-content: center;
-    border-top: solid #0a0e14 1.5px;
+    border-bottom: solid #0a0e14 0;
+    border-left: 0;
+    border-radius: 0 1rem 0 0;
 }
 
 .tarjetas__btn__aumentar:active, .tarjetas__btn__disminuir:active {

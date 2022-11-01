@@ -4,8 +4,8 @@
 
     --br-general: 3vh;
 
-    --tx-chico: calc(.8em + 1.5vw);
-    --tx-mediano: calc(1em + 1.9vw);
-    --tx-grande: calc(1.2em + 2.5vw);
-    --tx-muy-grande: calc(1.5em + 3.5vw);
+    --tx-chico: calc(1rem);
+    --tx-mediano: calc(1.5rem);
+    --tx-grande: calc(2rem);
+    --tx-muy-grande: calc(3rem);
 }
