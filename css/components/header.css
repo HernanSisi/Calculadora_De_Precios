@@ -11,7 +11,6 @@ header{
 }
 .header__logo{
     height: 10vh;
-    left: calc(50% - 5vh);
 }
 .header__btn__rebaja{
     position: absolute;
@@ -37,7 +36,7 @@ header{
     display: inline-block;
 	/* width: 8vh; */
 	cursor: pointer;
-	font-size: var(--tx-chico);
+	font-size: var(--tx-mediano);
 	color: #999;
 	font-family: 'Quicksand', sans-serif;
 	border:3px solid var(--bk-header-efects);

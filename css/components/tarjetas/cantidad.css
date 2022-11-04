@@ -13,6 +13,8 @@
 .tarjetas__btn__aumentar, .tarjetas__btn__disminuir {
     cursor: pointer;
     width: 5rem;
+    height: auto;
+    min-height: 3rem;
     color: #fff;
     padding: 3px 7px 3px 7px;
     border: solid #0a0e14 3px;

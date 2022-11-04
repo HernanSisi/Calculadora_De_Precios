@@ -29,10 +29,10 @@
 }
 @media (max-width: 426px){
     .header__selector__rebaja{
-        font-size: var(--tx-grande);
+        font-size: var(--tx-mediano);
     }
 }
-@media (min-width: 426px){
+@media (min-width: 769px){
     .calculadora__tarjetas::-webkit-scrollbar {
         
         background-color: transparent;

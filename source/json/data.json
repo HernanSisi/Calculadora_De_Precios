@@ -13,7 +13,13 @@
             "imagen": "source/img/botella_de_gaseosa.png"
         },
         {
-            "nombre": "Cerveza",
+            "nombre": "Botella de agua",
+            "descripcion": "Una botella de agua de 500ml.",
+            "precio": 100,
+            "imagen": "source/img/botellita_agua.png"
+        },
+        {
+            "nombre": "Lata de cerveza",
             "descripcion": "Una lata de cerveza schneider 480ml.",
             "precio": 400,
             "imagen": "source/img/lata_de_cerveza.png"
@@ -39,7 +45,7 @@
         {
             "nombre": "Hamburguesa",
             "descripcion": "Una hamburguesa.",
-            "precio": 200,
+            "precio": 350,
             "imagen": "source/img/hamburguesa.png"
         },
         {
@@ -69,13 +75,13 @@
         {
             "nombre": "Combo Nº2",
             "descripcion": "Una cerveza y una hamburguesa",
-            "precio": 500,
+            "precio": 700,
             "imagen": "source/img/combo_2.png"
         },
         {
             "nombre": "Combo Nº3",
             "descripcion": "Un vaso de gaseosa y una hamburguesa",
-            "precio": 250,
+            "precio": 400,
             "imagen": "source/img/combo_3.png"
         },
         {
