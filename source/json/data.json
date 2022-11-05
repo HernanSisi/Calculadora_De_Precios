@@ -57,25 +57,25 @@
         {
             "nombre": "Alfajor",
             "descripcion": "Un alfajor guaymallen.",
-            "precio": 0,
+            "precio": 100,
             "imagen": "source/img/alfajor.png"
         },
         {
             "nombre": "Chupetin",
             "descripcion": "Un chupetin a eleccion.",
-            "precio": 0,
+            "precio": 50,
             "imagen": "source/img/chupetin.png"
         },
         {
             "nombre": "Chicle",
             "descripcion": "Tira de chicle a eleccion.",
-            "precio": 0,
+            "precio": 150,
             "imagen": "source/img/chicle.png"
         },
         {
             "nombre": "Combo Nº1",
             "descripcion": "Un alfajor, un chicle y un vaso de gaseosa.",
-            "precio": 0,
+            "precio": 300,
             "imagen": "source/img/combo_1.png"
         },
         {
