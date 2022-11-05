@@ -1,5 +1,5 @@
 {
-    "productos":[
+    "productos": [
         {
             "nombre": "Vaso de Gaseosa",
             "descripcion": "Un vaso de gaseosa.",
@@ -48,12 +48,12 @@
             "precio": 350,
             "imagen": "source/img/hamburguesa.png"
         },
-{
+        {
             "nombre": "Pancho",
             "descripcion": "Un pancho.",
             "precio": 250,
-            "imagen": "source/img/combo_4.png"
-        }
+            "imagen": "source/img/Pancho.png"
+        },
         {
             "nombre": "Alfajor",
             "descripcion": "Un alfajor guaymallen.",
@@ -96,7 +96,7 @@
             "precio": 300,
             "imagen": "source/img/combo_4.png"
         },
-{
+        {
             "nombre": "Combo Nº5",
             "descripcion": "Porción de pizza y vaso de gaseosa.",
             "precio": 200,
