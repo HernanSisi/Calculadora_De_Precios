@@ -3,19 +3,19 @@
         {
             "nombre": "Vaso de Gaseosa",
             "descripcion": "Un vaso de gaseosa.",
-            "precio": 80,
+            "precio": 60,
             "imagen": "source/img/vaso_de_gaseosa.png"
         },
         {
             "nombre": "Botella de Gaseosa",
             "descripcion": "Una botella de gaseosa.",
-            "precio": 400,
+            "precio": 600,
             "imagen": "source/img/botella_de_gaseosa.png"
         },
         {
             "nombre": "Botella de agua",
             "descripcion": "Una botella de agua de 500ml.",
-            "precio": 100,
+            "precio": 150,
             "imagen": "source/img/botellita_agua.png"
         },
         {
@@ -27,67 +27,67 @@
         {
             "nombre": "Fernet",
             "descripcion": "Un vaso de fernet Branca.",
-            "precio": 400,
+            "precio": 600,
             "imagen": "source/img/vaso_fernet.png"
         },
         {
             "nombre": "Pizza",
             "descripcion": "Una porcion de pizza de muzzarella.",
-            "precio": 120,
+            "precio": 0,
             "imagen": "source/img/porcion_de_pizza.png"
         },
         {
             "nombre": "Pizza entera",
             "descripcion": "Una pizza de muzzarella.",
-            "precio": 700,
+            "precio": 0,
             "imagen": "source/img/pizza_entera.png"
         },
         {
             "nombre": "Hamburguesa",
             "descripcion": "Una hamburguesa.",
-            "precio": 350,
+            "precio": 0,
             "imagen": "source/img/hamburguesa.png"
         },
         {
             "nombre": "Alfajor",
             "descripcion": "Un alfajor guaymallen.",
-            "precio": 90,
+            "precio": 0,
             "imagen": "source/img/alfajor.png"
         },
         {
             "nombre": "Chupetin",
             "descripcion": "Un chupetin a eleccion.",
-            "precio": 50,
+            "precio": 0,
             "imagen": "source/img/chupetin.png"
         },
         {
             "nombre": "Chicle",
             "descripcion": "Tira de chicle a eleccion.",
-            "precio": 10,
+            "precio": 0,
             "imagen": "source/img/chicle.png"
         },
         {
             "nombre": "Combo Nº1",
             "descripcion": "Un alfajor, un chicle y un vaso de gaseosa.",
-            "precio": 220,
+            "precio": 0,
             "imagen": "source/img/combo_1.png"
         },
         {
             "nombre": "Combo Nº2",
             "descripcion": "Una cerveza y una hamburguesa",
-            "precio": 700,
+            "precio": 0,
             "imagen": "source/img/combo_2.png"
         },
         {
             "nombre": "Combo Nº3",
             "descripcion": "Un vaso de gaseosa y una hamburguesa",
-            "precio": 400,
+            "precio": 0,
             "imagen": "source/img/combo_3.png"
         },
         {
             "nombre": "Combo Nº4",
             "descripcion": "Una pizza entera y una botella de gaseosa",
-            "precio": 1000,
+            "precio": 0,
             "imagen": "source/img/combo_4.png"
         }
     ]
