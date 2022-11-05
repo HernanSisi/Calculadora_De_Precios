@@ -9,7 +9,7 @@
         {
             "nombre": "Botella de Gaseosa",
             "descripcion": "Una botella de gaseosa.",
-            "precio": 600,
+            "precio": 500,
             "imagen": "source/img/botella_de_gaseosa.png"
         },
         {
@@ -33,21 +33,27 @@
         {
             "nombre": "Pizza",
             "descripcion": "Una porcion de pizza de muzzarella.",
-            "precio": 0,
+            "precio": 150,
             "imagen": "source/img/porcion_de_pizza.png"
         },
         {
             "nombre": "Pizza entera",
             "descripcion": "Una pizza de muzzarella.",
-            "precio": 0,
+            "precio": 800,
             "imagen": "source/img/pizza_entera.png"
         },
         {
             "nombre": "Hamburguesa",
             "descripcion": "Una hamburguesa.",
-            "precio": 0,
+            "precio": 350,
             "imagen": "source/img/hamburguesa.png"
         },
+{
+            "nombre": "Pancho",
+            "descripcion": "Un pancho.",
+            "precio": 250,
+            "imagen": "source/img/combo_4.png"
+        }
         {
             "nombre": "Alfajor",
             "descripcion": "Un alfajor guaymallen.",
@@ -75,20 +81,26 @@
         {
             "nombre": "Combo Nº2",
             "descripcion": "Una cerveza y una hamburguesa",
-            "precio": 0,
+            "precio": 700,
             "imagen": "source/img/combo_2.png"
         },
         {
             "nombre": "Combo Nº3",
             "descripcion": "Un vaso de gaseosa y una hamburguesa",
-            "precio": 0,
+            "precio": 400,
             "imagen": "source/img/combo_3.png"
         },
         {
             "nombre": "Combo Nº4",
-            "descripcion": "Una pizza entera y una botella de gaseosa",
-            "precio": 0,
+            "descripcion": "Un pancho y un vaso de gaseosa.",
+            "precio": 300,
             "imagen": "source/img/combo_4.png"
+        },
+{
+            "nombre": "Combo Nº5",
+            "descripcion": "Porción de pizza y vaso de gaseosa.",
+            "precio": 200,
+            "imagen": "source/img/combo_5.png"
         }
     ]
 }
