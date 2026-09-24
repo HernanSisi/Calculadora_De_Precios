@@ -80,28 +80,19 @@ const generarCantidad = () => {
     return cantidades;
 }
 
+const obtenerContador = (event) =>
+    event.currentTarget.closest('.tarjetas').querySelector('[data-cantidad]');
+
 const btnAumentar = (event) => {
-    let avance = () => {
-        if (event.path[0].classList.value == 'tarjetas__btn__aumentar') {
-            return 2;
-        }
-        return 3;
-    }
-    let contador = event.path[avance()].querySelector('[data-cantidad]');
-    if (contador.dataset.cantidad <99) {
+    const contador = obtenerContador(event);
+    if (contador.dataset.cantidad < 99) {
         contador.dataset.cantidad++;
         contador.textContent = contador.dataset.cantidad;
         calcularPrecioTotal();
     }
 };
 const btnDisminuir = (event) => {
-    let avance = () => {
-        if (event.path[0].classList.value == 'tarjetas__btn__aumentar') {
-            return 2;
-        }
-        return 3;
-    }
-    let contador = event.path[avance()].querySelector('[data-cantidad]');
+    const contador = obtenerContador(event);
     if (contador.dataset.cantidad > 0) {
         contador.dataset.cantidad--;
         contador.textContent = contador.dataset.cantidad;
